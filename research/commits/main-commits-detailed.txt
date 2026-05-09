@@ -1,0 +1,316 @@
+0522e2d77e3ab82d3b80a5be8dbbdc8d4180561c|2019-08-03 11:29:50 +0900|Compile an integer to an exectuable that exits with the given number
+bf7081fba7d8c6b1cd8a12eb329697a5481c604e|2019-08-03 12:20:08 +0900|Add + and - operators
+a1ab0ff26f23c82f15180051204eeb6279747c9a|2019-08-03 12:36:06 +0900|Add a tokenizer to allow space characters between tokens
+cc5a6d978144bda90220bd10866c4fd908d07546|2019-08-03 15:02:08 +0900|Improve error message
+84cfcaf98f3d19c8f0f316e22a61725ad201f0f6|2019-08-03 15:36:43 +0900|Add *, / and ()
+bf9ab52860c1cbbeeca40df515468f42300ff429|2019-08-03 15:41:40 +0900|Add unary plus and minus
+25b4b85b887c643e337a9fbcd1b0220b413952bf|2019-08-03 16:15:23 +0900|Add ==, !=, <= and >= operators
+725badfb494544b7c7f1d4c4690b9bc033c6d051|2020-10-07 20:11:16 +0900|Split main.c into multiple small files
+76cae0ad05b6ba3e3e927b2b749ccddda23f0c51|2020-09-26 08:50:44 +0900|Accept multiple statements separated by semicolons
+1f9f3adf324af1432a380b41c7690834e649e346|2020-09-26 08:59:56 +0900|Support single-letter local variables
+482c26b536f8e5c998af6210470cd3d97a47ee9a|2020-10-07 20:12:19 +0900|Support multi-letter local variables
+6cc1c1f0643ce0f1af0857e024a0a438ddb45853|2020-10-07 20:12:57 +0900|Add "return" statement
+18ac283a5d19c19f1e1a7020a50fe34c2160a0f8|2020-09-04 13:38:41 +0900|Add { ... }
+ff8912c68e877744f8b15070e098af786e7bd296|2020-05-14 11:05:01 +0900|Add null statement
+72b841508f562c65b427a502fe6b270c3717319b|2020-10-07 12:47:09 +0900|Add "if" statement
+f5d480f139592cc2670c2b05076c39b2fd6fe9b3|2019-08-04 17:35:53 +0900|Add "for" statement
+1f3eb34f637520b01e6b8cd10a9026d05036db6d|2019-08-04 17:24:03 +0900|Add "while" statement
+5b142b1dcf6561df3c44a743965af3bd4e619112|2019-08-04 18:07:31 +0900|Add LICENSE and README.md
+3d8627719be00e39070eaca0ee5b599f2a877c5c|2020-09-26 11:23:04 +0900|Add a representative node to each Node to improve error messages
+863e2b8de25fdf43a4a63b93d0f57718e9edaa47|2019-08-05 21:12:44 +0900|Add unary & and *
+a6bc4ab101c20b6398fd6bbfe124665bb7db5d25|2020-09-04 13:39:06 +0900|Make pointer arithmetic work
+b4e82cf7ce1cbfff8dd30f20fdad73fd3f1d5ccb|2020-09-03 15:43:36 +0900|Add keyword "int" and make variable definition mandatory
+30a39926272a8341c52018654ca18d2c86ba662b|2019-08-04 18:25:20 +0900|Support zero-arity function calls
+964b1d2a0e3e46882743f16703cb12b51e724179|2019-08-04 19:03:46 +0900|Support function call with up to 6 arguments
+6cb4220f339e7d2a894e44b61c90c576a482914b|2020-09-04 19:01:33 +0900|Support zero-arity function definition
+aacc0cfec24e0aef1e884ac8b657e182a33a7b1c|2020-09-04 13:39:48 +0900|Support function definition up to 6 parameters
+8b6395d0f2be4024bd7e7921157a6496951eb162|2020-09-26 10:15:32 +0900|Add one dimensional arrays
+3ce1b2d067164f754dcb4216c193dc98e164b3ce|2019-08-05 23:56:37 +0900|Add arrays of arrays
+648646bba704745274fcd4fef3b7029c7f7e0fcd|2019-08-06 18:14:53 +0900|Add [] operator
+3e55cafef80f0fc9d74bb06ea174de4b53e2ef94|2019-08-06 18:44:53 +0900|Add sizeof
+0b7663481d0513067e0c0af04765b8578ae2a498|2020-09-04 17:58:53 +0900|Merge Function with Var
+a4d3223a7215712b86076fad8aaf179d8f768b14|2020-09-05 08:43:21 +0900|Add global variables
+be38d63d1b9cd236ef3ec884eedad8112bb6e6f9|2020-08-27 21:04:17 +0900|Add char type
+4cedda2dbeca6bd81d2bd00032f7cff46e0a985e|2020-10-07 12:49:08 +0900|Add string literal
+35a0bcd366163168bf3337975130f62fc1c30235|2020-10-08 14:30:04 +0900|Refactoring: Add a utility function
+ad7749f2fad87a4b1df644d4e1c345b3f87d386d|2019-08-06 22:36:19 +0900|Add \a, \b, \t, \n \v, \f, \r and \e
+699d2b7e3f4ea4ba6ec2d5080f87e243989a5835|2020-04-06 08:49:00 +0900|Add \<octal-sequence>
+c2cc1d3c4500caa34da5e68eb62b7474caf96fe2|2020-10-07 20:14:14 +0900|Add \x<hexadecimal-sequence>
+9dae23461eb6250865f4ee727a0e727a6a4e03ba|2019-08-07 08:05:18 +0900|[GNU] Add statement expression
+d9ea59757e2710e34f105e98230f30f578e0e662|2019-08-07 08:30:06 +0900|Read code from a file instead of argv[1]
+7b8528f71c78a01e8ff41a76a83a320d1ef80e93|2020-09-03 22:00:02 +0900|Refactor -- no functionality change
+a0388bada4016bc0c3be6154c159faf80ce18d01|2020-05-08 20:44:25 +0900|Add -o and --help options
+6c0a42926a10ea5abc781c9db89b105e007512b1|2019-08-07 08:56:28 +0900|Add line and block comments
+ca8b2434c97fc37c14eddcb3a4e831d030ebb041|2020-09-04 18:00:26 +0900|Handle block scope
+cd832a311e56bda981c9c957ba45f1bc1f6cc737|2020-09-04 19:03:01 +0900|Rewrite tests in shell script in C
+6647ad9b843768968db0a331ff7077904c6f58ee|2020-04-20 22:23:11 +0900|Precompute line number for each token
+1c91d1943a8ee07034224dd950412c3c87ef3276|2020-04-20 22:15:09 +0900|Emit .file and .loc assembler directives
+e6307ad374eeecd6474286b1b6fda5b3dda89d9a|2019-08-12 10:29:17 +0900|Add comma operator
+f814033d04c4cefdbcf8174d65011d484d69303c|2019-08-08 22:43:58 +0900|Add struct
+9443e4b8bc587b670f9b448b03842530cd355760|2020-08-30 17:21:54 +0900|Align struct members
+dfec1157b41bb86c8cb66eee0b0cbdb9dcccb6f4|2019-08-09 00:10:31 +0900|Align local variables
+e1e831ea3ee46ed7d4c975822f418d60d3050e1b|2020-10-07 10:43:02 +0900|Support struct tags
+f0a018a7d6f5e3847d7e66e324c5f71a55c8b5ef|2020-10-07 20:16:40 +0900|Add -> operator
+11e3841832697c8ba4a1d68f5daa05045f70a716|2020-04-02 21:54:47 +0900|Add union
+bef05432c9d3289636ed1d360ca9b863a0698dc7|2020-04-18 01:05:18 +0900|Add struct assignment
+5831edaab3eb6d56126c08f01f5639222602f7e5|2020-09-06 08:09:09 +0900|Change size of int from 8 to 4
+43c2f0829f7d4ec3b96132b9964a778ff816b2eb|2020-08-27 21:51:00 +0900|Add long type
+9d48eef58b964551350fe0c1f641a57f5da40529|2020-09-06 08:10:01 +0900|Add short type
+a817b23da3c6f39f22bc57c0a53169978d97d7fa|2019-08-10 23:05:37 +0900|Add nested type declarators
+74e3acc296d90d6d16ae70803196e967564fb16a|2020-09-04 11:45:29 +0900|Add function declaration
+8c3503bb94bd6b2d57e1f979d9fc1d84383b2961|2019-08-11 10:18:55 +0900|Add void type
+287906abb85081b961e118bb80b30decb93fba6f|2019-08-11 14:12:01 +0900|Handle complex type declarations correctly
+f46370ef98adec5d3a840d69a6b34a03d80b0699|2020-04-20 21:53:23 +0900|Add `long long` as an alias for `long`
+a6b82da1ae9eefa44dada0baa885c283823ad59a|2020-09-04 17:23:26 +0900|Add typedef
+67543ea113c5cc2b15881e2bbb85ffd44feaef1f|2019-08-11 15:04:35 +0900|Make sizeof to accept not only an expression but also a typename
+cb81a379d9f7aef32fb1bbebd18f8618e1617a3f|2020-08-28 15:44:40 +0900|Use 32 bit registers for char, short and int
+cfc4fa94c1eb17f37466571f74bbdfae03a6e11f|2019-08-11 16:06:14 +0900|Add type cast
+8b430a6c5fd6d33a637f2c615f8e5ec59e7be30e|2020-09-26 10:24:45 +0900|Implement usual arithmetic conversion
+9e211cbf1d459babf035fd6b3407c2bd184cb639|2020-08-21 17:16:28 +0900|Report an error on undefined/undeclared functions
+818352acc07d0a982076b4b49345b42be706f5e1|2020-04-18 09:27:47 +0900|Handle return type conversion
+fdc80bc6b5faa058b88d838332c71b7101712896|2020-03-22 18:43:16 +0900|Handle function argument type conversion
+44bba965cbe3827be2b68651e541b33fa040bb72|2020-08-28 22:07:54 +0900|Add _Bool type
+aa0accc75e9358d313fef0a6d4005103e2ce25f5|2019-08-11 16:27:43 +0900|Add character literal
+48ba2656fecc646ec4eb7f943fa94b02ed9725c7|2019-08-11 19:59:27 +0900|Add enum
+736232f3d672dae9a1ddae800909204c17fbe37c|2020-09-04 17:25:15 +0900|Support file-scope functions
+a4fea2ba3edeb8ab5a0812a09f14c2a771aa196c|2019-08-11 22:53:26 +0900|Allow for-loops to define local variables
+01a94c04aa2b5a95ac4038bd0d6fd5334fcbf882|2020-10-07 20:17:30 +0900|Add +=, -=, *= and /=
+47f19371f75db9029ea1b8b3783624fb7838d2db|2020-10-07 20:18:26 +0900|Add pre ++ and --
+e8ca48cf41f5f3113cadfb23acfedad7b9fa2e63|2020-04-13 21:44:21 +0900|Add post ++ and --
+7df934d2b63727d67d1c054975893930fa6aff44|2019-08-13 18:39:56 +0900|Add hexadecimal, octal and binary number literals
+6b88bcb306ef80b65d7f99c081ba83283b4ffac5|2019-08-13 19:31:04 +0900|Add ! operator
+46a96d6862e4c1317ff48df69391fd98a1ae5e3d|2019-08-13 19:41:11 +0900|Add ~ operator
+daa739817c58baa8dcd0c23bb403d27d5907abfb|2020-10-07 20:18:57 +0900|Add % and %=
+86440068b43d6f9c93fdb07c1c2279cbab579e73|2020-10-07 20:19:35 +0900|Add &, |, ^, &=, |= and ^=
+f30f78175c1fd50c8cdd132ca804573ae0d18453|2020-10-07 20:22:11 +0900|Add && and ||
+29ed294906ebc271c32a755e1aefc360df4d3863|2019-08-13 21:03:20 +0900|Add a notion of an incomplete array type
+79632219d0991aae83e1de3c56df7d664205c2b6|2019-08-14 11:00:05 +0900|Decay an array to a pointer in the func param context
+61a10551209a0d3770449862152e1b73b584d771|2020-10-07 11:10:28 +0900|Add a notion of an incomplete struct type
+6116cae4c4b98ef9ed55736f3a6c1d872de97767|2020-09-04 12:27:21 +0900|Add goto and labeled statement
+a4be55b333c9f712c334aac81e7ef4e076c2bc9b|2020-08-30 16:44:12 +0900|Resolve conflict between labels and typedefs
+b3047f2317b74f19fb44dfe5e577d586d93dfa3c|2019-08-15 13:48:41 +0900|Add break statement
+3c83dfd8af045ae6923d4ccb3a3a5a50f4012346|2020-08-27 21:59:19 +0900|Add continue statement
+044d9ae07ba700c52d8342e4eee26e07eea11619|2019-08-15 16:43:24 +0900|Add switch-case
+d0c0cb74b21f431c62f7eeb8dbc0d6e14c1eff14|2020-10-07 20:23:22 +0900|Add <<, >>, <<= and >>=
+447ee098c51f6f615ef560b35d429f32f0cb5a35|2019-08-17 10:27:35 +0900|Add ?: operator
+79f5de21eb706ea5486fd682a83ffbde7e4d16a9|2019-08-17 10:38:20 +0900|Add constant expression
+22dd560ecf06e9ac4a4c1be33be74bac7924f06a|2019-08-18 12:01:02 +0900|Support local variable initializers
+ae0a37dc4b39018a95616836ae4aaf4c8bfd779b|2020-09-18 13:36:43 +0900|Initialize excess array elements with zero
+a754732c046939cd87ac9fc8e9483ae9b3369449|2020-04-16 23:34:05 +0900|Skip excess initializer elements
+0d717373cc9e247fc6f6a0e02b0bbd424f0d70b0|2019-08-18 16:34:39 +0900|Add string literal initializer
+5b955336032881edf835a50fb63f9581af1efd73|2020-09-04 14:39:22 +0900|Allow to omit array length if an initializer is given
+e9d2c46ab3cc8b8518df289a4fc24a9e3fc9b3fe|2019-08-18 17:56:36 +0900|Handle struct initializers for local variables
+aca19dd35027a12e245bfa52e6a98968e0cd2a9c|2020-07-09 22:05:46 +0900|Allow to initialize a struct with other struct
+483b194a80e904c11c5c6d855303596145adacee|2020-07-20 23:23:27 +0900|Handle union initializers for local variables
+bbfe3f4369e1dd2266b827c81d7d9078ab1d301f|2020-09-04 17:26:34 +0900|Add global initializer for scalar and string
+eeb62b6dd547da5742f3ed74f8c8ae534d883dd9|2019-08-18 20:35:17 +0900|Add struct initializer for global variable
+1eae5ae3678d079efc7d2807f10439e53932f811|2020-07-20 23:53:12 +0900|Handle union initializers for global variable
+efa0f3366ddb914cc29f96fcdf10f99ded61775c|2019-08-19 06:53:50 +0900|Allow parentheses in initializers to be omitted
+a58958ccb40a127a83e3383ef3887e4721352238|2020-04-16 22:57:32 +0900|Allow extraneous braces for scalar initializer
+fde464c47cb69e030b58d8d204a508d6babd3e09|2020-10-06 13:08:41 +0900|Allow extraneous comma at the end of enum or initializer list
+3d216e3e06eee7ea3679503867a619c28458e8a7|2020-08-19 17:15:03 +0900|Emit uninitialized global data to .bss instead of .data
+824543bb2f2b2e4f445d8c58b32f53bf1eec63ce|2020-09-20 16:11:55 +0900|Add flexible array member
+cd688a89b8a57e9614f278e29a9267709494d236|2020-09-20 16:16:00 +0900|Allow to initialize struct flexible array member
+7a1f816783064a12156807fe0a4d760c2e212d4e|2019-08-20 08:30:43 +0900|Accept `void` as a parameter list
+157356c769d777b1721da8218724608081137fe2|2020-08-19 17:16:58 +0900|Align global variables
+006a45ccd475296ee19ec87891523d89ce3f2f24|2020-09-04 17:27:22 +0900|Add extern
+27647455e4cb7db1545a7b69c3a324aa025a471a|2020-09-04 18:08:32 +0900|Handle extern declarations in a block
+9df51789e7fd36fc1580bcd80676f9bcc4e24be1|2020-09-04 11:20:55 +0900|Add _Alignof and _Alignas
+310a87e15e98bb5abfd86ea7bb2a1cca1f5243c7|2020-09-26 08:09:59 +0900|[GNU] Allow a variable as an operand of _Alignof
+319772b42ebc2311a56ef54e1e9a60c5583971b1|2020-09-04 14:41:55 +0900|Add static local variables
+127056dc1de6ddad280f6cf09cb15538dca22f43|2019-08-24 07:45:14 +0900|Add compound literals
+30b3e216cd4eca3b8a13cb0a0613f053ac1d4925|2020-08-27 22:01:34 +0900|Add return that doesn't take any value
+eb85527656f77b9532f3a78cefde7a2eb739189e|2020-09-04 11:21:12 +0900|Add static global variables
+ee252e6ce79d752526504cf034fd41f070191824|2019-08-24 16:09:46 +0900|Add do ... while
+6a0ed71107670b404af04bc20a2461165483f390|2020-09-13 16:25:34 +0900|Align stack frame to 16 byte boundaries
+dcd45792264795a32f19581a904dda8bf6d3ad06|2020-09-13 16:25:46 +0900|Handle a function returning bool, char or short
+58fc86137c23adc3d98be40117087c645a9d7e4e|2020-10-07 20:24:13 +0900|Allow to call a variadic function
+754a24fafcea637cab8bc01bb2702069109a0358|2019-08-25 11:48:44 +0900|Add va_start to support variadic functions
+197689a22b38df2ced90e03117914a2248238c20|2020-09-26 14:29:06 +0900|Check the number of function arguments
+3f59ce79554fcbccd15d42ff4b4ddb91812c7045|2020-10-06 17:08:59 +0900|Add `signed` keyword
+34ab83bdf49a23a47bc90354a5a4d22686d8d92a|2020-08-28 23:29:49 +0900|Add unsigned integral types
+aaf10459d93fb6c0f4539cb792c02a8d15cb0299|2019-09-21 16:17:40 +0900|Add U, L and LL suffixes
+8b8f3de48bba31ccfa84e3573075b2125bc130c3|2020-03-24 22:18:59 +0900|Use long or ulong instead of int for some expressions
+6880a39d2a5aec8e5ed32c276109936ed503d0bb|2020-09-11 21:29:12 +0900|When comparing two pointers, treat them as unsigned
+7ba6fe8d94af2a232a9da82b815502513f52e465|2020-03-26 21:20:24 +0900|Handle unsigned types in the constant expression
+b77355427575385b6f0b6c0a914600b79b4e4412|2020-09-03 01:22:17 +0900|Ignore const, volatile, auto, register, restrict or _Noreturn.
+93d12771d009924fb598b088dc4bd9b67fd9a09a|2020-08-31 09:58:42 +0900|Ignore "static" and "const" in array-dimensions
+1fad2595d6fa67e57cd795d4faac4306e42e72c5|2020-09-04 17:28:20 +0900|Allow to omit parameter name in function declaration
+1e57f72d8adf15937856a3ca3ca0e16ccb37421e|2020-09-27 19:43:03 +0900|Add floating-point constant
+29de46aed47e5308db9a0aef6e13610dea8fb389|2020-09-12 14:47:47 +0900|Add "float" and "double" local variables and casts
+cf9ceecb2f8cad2fb694b15c14ca1cf98e9524e7|2020-09-22 18:28:37 +0900|Add flonum ==, !=, < and <=
+83f76ebb66712a2560b2993e92265b574b1ab7ed|2020-09-22 18:29:17 +0900|Add flonum +, -, * and /
+0ce109302715f8186b90671a53517a63a2741022|2020-09-13 15:58:36 +0900|Handle flonum for if, while, do, !, ?:, || and &&
+8ec1ebf176b88522fc4ec3980d20c78e13fdd526|2020-08-27 22:46:16 +0900|Allow to call a function that takes/returns flonums
+c6b30568b407e7b60b6fc2929801669434e4f91a|2020-08-27 22:47:31 +0900|Allow to define a function that takes/returns flonums
+8b14859f63a8389882bdb9330de592a112affa18|2020-04-30 23:33:27 +0900|Implement default argument promotion for float
+e452cf721511dbf0d7f8c8f469f2dd67d8a5ee93|2020-05-01 17:36:12 +0900|Support variadic function with floating-point parameters
+ffea4219b1f4ebe7c06cecc6c221cb0aab3a03ea|2020-05-01 19:30:17 +0900|Add flonum constant expression
+9bf96124ba1e0cb95f491bd0c91d4e9c7a9850da|2020-08-26 14:51:06 +0900|Add "long double" as an alias for "double"
+5d15431df1abab3a5cf596fabe0a77c030a10791|2019-08-24 12:08:12 +0900|Add stage2 build
+d06a8ac6e6120861c9c79acb15b9a18693e4ee47|2020-09-03 18:50:56 +0900|Add function pointer
+c5953ba1328fa86f906406843eb9f23cd596ef04|2020-08-31 21:28:53 +0900|Decay a function to a pointer in the func param context
+53e81033ce18fd94fcdcde9010b7c9d41f30aa2c|2020-09-02 20:11:28 +0900|Add usual arithmetic conversion for function pointer
+f3d96136f292dea83fd760098d189a6884f59eb0|2020-08-15 22:30:28 +0900|Split cc1 from compiler driver
+140b43358c33fb5e9f86789541dbca306bb64fcc|2020-10-08 14:34:23 +0900|Run "as" command unless -S is given
+b833cd0f297ba7979c23cff1b88c27beb4f2f737|2020-08-18 09:16:57 +0900|Accept multiple input files
+8b726b54893e11427533fcceb7206b97c25f50a6|2020-09-19 20:36:26 +0900|Run "ld" unless -c is given
+1e1ea39dadd0035443f1d15c651deaf979341879|2020-08-18 09:41:59 +0900|Add a do-nothing preprocessor
+146c7b3dd47bb65da2da86cce7f4d75d8efa157d|2020-03-30 09:30:06 +0900|Add the null directive
+d367510fcc1396fa252c4b87439c2f9fcd0abbe7|2020-09-03 19:24:23 +0900|Add #include "..."
+ec149f64d2f5c41a2080c0b4e42e4ef64444b382|2020-04-21 10:46:26 +0900|Skip extra tokens after `#include "..."`
+d138864a2a99849e43d81ca071b7a799edc0e65a|2020-08-20 21:37:02 +0900|Add -E option
+bf6ff928ad17d98d07f68f619e6cbe29829d0a20|2020-08-20 19:36:36 +0900|Add #if and #endif
+aa570f3086ce3e2c5ac8bf6107c051fed5aabf89|2020-03-30 09:54:47 +0900|Skip nested #if in a skipped #if-clause
+c6e81d22f8189cd7bfcfcc33e4ac462529418192|2020-03-30 09:57:07 +0900|Add #else
+e7a1857a31fc0c0012773c021639a6297f5b208f|2020-03-29 08:51:06 +0900|Add #elif
+97d33ad3bdc21c26356253046902d4b166bd115b|2020-03-29 13:29:48 +0900|Add objlike #define
+9ad60e41d512158d942d1bf3808682ede6ef5118|2020-03-29 18:23:33 +0900|Add #undef
+2651448084a56dd0b960989798772e71e12e6c30|2020-08-20 19:36:49 +0900|Expand macros in the #if and #elif argument context
+acce00228b842af35df5af8c97398765a386ab1e|2020-03-29 15:47:50 +0900|Do not expand a token more than once for the same objlike macro
+1f80f581e517ae4a5df6ab38af48a0d2a1089c73|2020-03-29 17:18:31 +0900|Add #ifdef and #ifndef
+dec3b3fa02ffb343c37f82d36ae02be6bb30eb03|2020-08-18 10:45:03 +0900|Add zero-arity funclike #define
+b9ad3e43cf7479712972514aa3f2c55a0f650f76|2020-03-30 10:37:44 +0900|Add multi-arity funclike #define
+dd4306cdd8158f76f094fc699530311228536adb|2020-03-30 10:39:35 +0900|Allow empty macro arguments
+c7d7ce0f0cbd5869259a3365211ab92126a27ff6|2020-03-29 22:18:02 +0900|Allow parenthesized expressions as macro arguments
+1313fc6d3a77cedbca18fa0ffee1a86d0903ad7f|2020-08-31 16:48:29 +0900|Do not expand a token more than once for the same funclike macro
+8f6f7925a04ca070167a38b8952a1a0bb7b63d23|2020-08-30 01:04:23 +0900|Add macro stringizing operator (#)
+8f561aed9b7a47c38afd8c1cc75bc9a700ae97b5|2020-08-30 01:05:28 +0900|Add macro token-pasting operator (##)
+769b5a0941694ccdcfe61528053c3d93cb53de80|2020-08-30 18:54:12 +0900|Use chibicc's preprocessor for all tests
+5cb2f89e6a49cac8ddb16f46df92c31fa2507b9a|2020-08-31 16:50:58 +0900|Add defined() macro operator
+a8d76ad435891deee9deebbc3a825062fd6cd45a|2020-03-31 22:16:56 +0900|Replace remaining identifiers with 0 in macro constexpr
+8075582c21496530e3b1847f5bad11c42941066e|2020-08-30 02:33:01 +0900|Preserve newline and space during macro expansion
+b33fe0ea828e6a8ff3ec2d8bd5845da2b337afa5|2020-03-31 22:27:38 +0900|Support line continuation
+d85fc4ffcfb8875aa191481e5c153a1e07066f8e|2020-08-30 18:57:20 +0900|Add #include <...>
+a1dd6213c85dfa6f36f74fd00ade09ed9fa3e467|2020-09-25 23:18:32 +0900|Add -I<dir> option
+a939a7a90638631c296dfb63d857b24555b25327|2020-09-19 20:42:21 +0900|Add default include paths
+e7fdc2e3f1d20d38ad61f6cb87e72c613b7696c7|2020-04-01 20:46:47 +0900|Add #error
+5f5a8507ff2f2509c27ac1a196fd1874345e5e95|2020-04-01 23:54:33 +0900|Add predefine macros such as __STDC__
+6f17071885b98ac5dcdcc0b233ff204150a6826c|2020-08-30 18:57:54 +0900|Add __FILE__ and __LINE__
+dc01f94900a9cabf40bb6ec2c5be8b4665c30eda|2020-04-02 06:55:07 +0900|Add __VA_ARGS__
+ba6b4b63751ed65f2fcd74965d2b337a1a65752b|2020-09-04 11:55:28 +0900|Add __func__
+82ba010c764d3dc4d0f72a9ee5a6d6f72780e75f|2020-09-04 11:56:28 +0900|[GNU] Add __FUNCTION__
+ab4f1e1e197ecae40299b99dc00b1c92a4a3cb28|2020-04-26 10:11:02 +0900|Concatenate adjacent string literals
+7746e4ee0b254da6311202c7db3d2fddd4c6a52c|2020-07-20 19:24:56 +0900|Recognize wide character literal
+7cbfd111d38b70110c9adcdfdae86d07995ae534|2020-08-30 18:58:41 +0900|Add stdarg.h, stdbool.h, stddef.h, stdalign.h and float.h
+5322ea8495d70be81a6b80f7a88850b85bfba240|2020-08-16 14:27:35 +0900|Add va_arg()
+12a9e7506c092fcbab8852db85c3aebefc8a8c81|2020-08-30 18:49:29 +0900|Self-host: including preprocessor, chibicc can compile itself
+b29f0521025c95ff331ddb58258b1083f8efd9ff|2020-08-27 22:59:31 +0900|Support passed-on-stack arguments
+9021f7f5decea3e7954f138e9bac4cfea26292be|2020-07-30 12:48:20 +0900|Support passed-on-stack parameters
+5e0f8c47e3bd91f589710a28f09b718d4a0ec6f3|2020-08-27 23:14:58 +0900|Allow struct parameter
+d63b1f410a7aa3d308d0620d640f417a87b0c838|2020-07-31 12:12:43 +0900|Allow struct argument
+c72df1c9be535bdfd5b46609996bf1eaf540aced|2020-08-27 23:16:53 +0900|Allow to call a fucntion returning a struct
+d7bad961146b9f2fd918f05fd59a50f3f65bf325|2020-09-04 11:57:15 +0900|Allow to define a function returning a struct
+b6d3cd00df7d0496fca2af2c34e72ab3e6af4028|2020-09-04 18:27:31 +0900|Allow variadic function to take more than 6 parameters
+603de502fd8bad750d48aaf9a66c547e5ca04c2a|2020-09-04 18:37:15 +0900|Add va_copy()
+e0b5da3b395e46bbc2e377a59d5cba33206288a9|2020-04-23 17:18:49 +0900|Dereferencing a function shouldn't do anything
+3f2c2d5bca4f4506e0ab0b03959d96be427fa672|2020-09-27 19:45:12 +0900|Tokenize numeric tokens as pp-numbers
+fc69f5c6f9b3aeb5d6ee61353f0ed0df28f954c5|2020-08-28 01:34:10 +0900|Add -D option
+be8b6f6d31f0c73c2aabffdf2794f20c69567cdb|2020-08-18 11:09:32 +0900|Add -U option
+cc852fe99d0acfc6d547b36c75ff85e90975ad36|2020-08-27 23:36:12 +0900|Add bitfield
+441a89b80babf98d3feb13e4594ee01eb6cc4dd5|2020-09-06 21:06:15 +0900|Support global struct bitfield initializer
+54c2b3b18fb80235ad9ee53cac3966e8aad9e12a|2020-08-27 23:50:05 +0900|Handle op=-style assignments to bitfields
+17ea802ceaa76f55726488379959a983f891f631|2020-08-23 11:47:16 +0900|Handle zero-width bitfield member
+c302a969d8217ab46113d494b8cd773cf057193d|2020-08-23 12:38:17 +0900|Do not allow to obtain an address of a bitfield
+2bdc6b800c1dbe6db584b91046785d4c48c41fb2|2020-08-18 11:45:59 +0900|Write to an in-memory buffer before writing to an actual output file
+b1fdddff1523d2ca7bab4050434499d3a5ac39a1|2020-08-18 11:46:32 +0900|Ignore -O, -W and -g and other flags
+2c91da54dff93a365feec5a34f8eaeccca3e3a70|2020-05-10 14:47:10 +0900|Turn on -Wall compiler flag and fix compiler warnings
+5257ee0f202a5f9c4e5bcb576646cefe70f3ae91|2020-05-10 20:15:32 +0900|Make an array of at least 16 bytes long to have alignment of at least 16 bytes
+9c36dd727c736dc3a3ffa6ce7ce473966d802068|2020-05-11 20:21:17 +0900|Make "main" to implicitly return 0
+c3075b3030c0488df1e7aa9f600da0f66072186b|2020-08-23 11:48:16 +0900|Add anonymous struct and union
+e27417fcde500f6c01ce0dbee57a1af137510a09|2020-05-17 13:34:36 +0900|Add __DATE__ and __TIME__ macros
+0e77f3dff8b44547da4639c9609c216c9c896fa5|2020-06-09 01:40:02 +0900|[GNU] Add __COUNTER__ macro
+74bcec5b22a601451fac9d0878003d04205abca6|2020-06-10 01:30:16 +0900|Canonicalize newline character
+c31886aa7a52fd8639e09bbdf8ac8ea854c313f6|2020-08-18 11:56:24 +0900|Add \u and \U escape sequences
+a57c661d46d9523bed01ad1b074f7a78d9e94ca3|2020-05-06 18:47:42 +0900|Accept multibyte character as wide character literal
+454618cd15c2c87d9f5a6a6727e1b09a8e22a799|2020-09-27 19:46:47 +0900|Add UTF-16 character literal
+2dac3afece31c27bf773efbc1f30c6a67088d3b6|2020-07-06 18:59:25 +0900|Add UTF-32 character literal
+57b21fe90296c867888d7c8c60d243bc254a39d7|2020-09-27 19:47:36 +0900|Add UTF-8 string literal
+9cabe1f204a8a6139e8b072dfd6f0a15275ad25f|2020-09-26 19:56:56 +0900|Add UTF-16 string literal
+c467ee665de0c385170850ecc895add04b52b8a3|2020-09-26 19:57:36 +0900|Add UTF-32 string literal
+cae061af2b65ad0962fb4b6fe3b55abe2f3a5bf8|2020-07-05 20:49:58 +0900|Add wide string literal
+36230e0827ca33a9b09ea5aa7b06e170fd188ca1|2020-07-07 14:04:36 +0900|Add UTF-16 string literal initializer
+6adba75af879d8ac2bc43a7337b02e64d10e60f1|2020-07-07 14:04:36 +0900|Add UTF-32 string literal initializer
+e4491b811510d08f880d0f9c7553ecfd18635469|2020-07-08 13:01:34 +0900|Define __STDC_UTF_{16,32}__ macros
+0e5d250ebfd29845c8c26b0ad63379994a2b8560|2020-05-04 16:53:48 +0900|Allow multibyte UTF-8 character in identifier
+adb8b988897758d0d4f74dcd9129bff0831634ae|2020-07-19 20:28:46 +0900|[GNU] Accept $ as an identifier character
+238277714ddc407f966f3c503e13a114d6a91630|2020-10-04 14:58:00 +0900|Allow to concatenate regular string literals with L/u/U string literals
+2b2fa25507cdc491d2b5dafb2c4b5e33158b996a|2020-10-15 14:21:45 +0900|Skip UTF-8 BOM markers
+c618c3b582de1d0b10b334a4f2ba6b85d5128940|2020-09-18 14:12:32 +0900|Add array designated initializer
+835cd24b2c4598ee784d8bfd1c0427bfa948b947|2020-09-20 16:07:43 +0900|Allow array designators to initialize incomplete arrays
+691c4fac1529eaf1d825ca6093800912a4df3c91|2020-07-24 01:51:45 +0900|[GNU] Allow to omit "=" in designated initializers
+67f5834378660abf271722a16294a634106d047e|2020-10-06 13:09:15 +0900|Add struct designated initializer
+31dc1dfa211ee27e74907ce3aa3986401dcedb82|2020-08-15 17:01:54 +0900|Add union designated initializer
+95eb5b01b30b24d68cbeb3991f65c617fc2a35cb|2020-07-19 17:19:50 +0900|Handle struct designator for anonymous struct member
+37998be0c183508e54f10f57d63d87e6e7eb0607|2020-07-20 14:00:00 +0900|Improve error message for multibyte characters
+c61c0d00252a8704ff2731f6a57bad3657b84170|2020-07-22 19:45:03 +0900|Add #line
+aaf20fb96eaf21ead775fde6bad00d8e71650b5a|2020-07-22 22:16:01 +0900|[GNU] Add line marker directive
+922604ae1e29fd1283fcc557e294a7272116c094|2020-07-22 21:48:49 +0900|[GNU] Add __TIMESTAMP__ macro
+3a10c8aa44250e51dfe33e50b3121d6061faee4b|2020-08-20 22:24:20 +0900|[GNU] Add __BASE_FILE__ macro
+338144869fa82097d7767a032cbaac616ba0cd01|2020-07-23 13:25:15 +0900|Add __VA_OPT__
+083c27559e5d8fce9c3b588fc4c01769ca9dd10d|2020-07-23 14:28:33 +0900|[GNU] Handle ,##__VA_ARG__
+74ec9f6f3964d4beaa3970bd99c8660f958b694e|2020-09-19 22:09:33 +0900|Ignore #pragma
+007e526ec50bde4b366d0927ad20d9cd4ac53abf|2020-08-30 01:28:04 +0900|[GNU] Support GCC-style variadic macro
+7d80a5136d1b2926dd0776c51896c40723c518c5|2020-07-23 19:29:25 +0900|Add typeof
+1433b404d68f9fe314ae2955d0988dd74e5ecb92|2020-09-06 21:06:56 +0900|[GNU] Add __builtin_types_compatible_p
+1faab48ecf83d31a4fd781f10f6f00acb681d2dd|2020-07-24 16:18:03 +0900|Add _Generic
+aee7891acb3e653dcfb10ec4172ae4d099ebf034|2020-07-24 21:43:48 +0900|[GNU] Allow sizeof(<function type>)
+e28a612e9c2293182a83d5a7c6f48129455ce951|2020-09-13 15:58:54 +0900|[GNU] Add ?: operator with omitted operand
+a2535163e232cd547b14960bf4232305d239741d|2020-08-27 23:50:52 +0900|Add basic "asm" statement
+31087f8d4bbc06e5bec44cb14cab3a922b5e4855|2020-09-04 12:54:07 +0900|Handle inline functions as static functions
+e5f4ca90fd2bf950189c98ed7f1873c9f35131f3|2020-09-13 10:49:25 +0900|Do not emit static inline functions if referenced by no one
+6a2dc5a48a75b65aa2e3f606d195ef0fef3c4442|2020-08-02 10:04:55 +0900|Use __attribute__((format(print, ...))) to find programming errors
+11fc259b01c4a855e53ffdb2b86c1030f9c18586|2020-09-19 20:50:36 +0900|Add -idirafter option
+1b99badce48083c5fa6b8b5872e899c7d1a47f9a|2020-08-15 20:06:23 +0900|Add offsetof
+85e46b1071b54649740b35df939f32ed188c0e13|2020-09-04 17:29:15 +0900|Add tentative definition
+6d344ed9459bd0328de53a58505a397d92cb0c8a|2020-08-19 17:24:16 +0900|Add -fcommon and -fno-common flags
+b3772845bd07fb695ca6b6e67ad7640776ae0f6c|2020-09-07 10:02:10 +0900|Add thread-local variable
+8f5ff07dc08d258209adf60ed8e796efa7b7a476|2020-09-19 20:53:13 +0900|Add -include option
+ee0a951b30646023ccc9a144afb4b380bf8d09b1|2020-09-19 21:43:35 +0900|Add -x option
+4064871212049d82af3632941d15e6a0757ebc3c|2020-09-28 22:59:52 +0900|Make -E to imply -xc
+77275c546a5340f94ad011cd759ef162bc714ba6|2020-09-04 11:59:38 +0900|Add alloca()
+e8667afd08ecbf7c9b05beb4ff399959d9722ff9|2020-09-04 14:44:12 +0900|Add sizeof() for VLA
+07f901057f5c6aa77c0f15f7a22dc0b88923c227|2020-09-03 22:27:13 +0900|Add pointer arithmetic for VLA
+2fa8f489f3a852bd5bb17e023fdc5ea3a606100d|2020-08-25 09:34:41 +0900|Support sizeof(typename) where typename is a VLA
+b0109a30c9fa24fedcb4d79bb17788e7ed228636|2020-08-25 13:44:53 +0900|Do not define __STDC_NO_VLA__
+bc2527944a83c1bc951a429530f39e93dc5235b2|2020-08-25 11:02:38 +0900|Add -l option
+c32f0e21e71f43e64a7b98c9d96d4c513d42ba37|2020-09-19 21:00:04 +0900|Add -s option
+8d130ab93f65f7ef79839aba87459e4f9507ba39|2020-09-10 15:51:47 +0900|Emit size and type for symbols
+d56dd2f46e4049f017eae0dc99b2d16e78b88bee|2020-08-25 14:47:43 +0900|Recognize .a and .so files
+e0bf168041ef60687b5d4454a93fc78c4f3acc48|2020-08-29 10:37:53 +0900|Add long double
+d90c73b6058af4b22a4edd610713f75b2478e356|2020-08-30 12:51:05 +0900|[GNU] Support case ranges
+3d5550e29a92708613c3a351c0857aea90e147a5|2020-09-20 15:39:38 +0900|[GNU] Support array range designator
+4f165ec60baa74f244d0a7c9b64c4bb3cbb76173|2020-09-04 12:26:27 +0900|[GNU] Support labels-as-values
+f0c98e0d590ffae286a8a4847c91212c734be8e3|2020-09-20 13:23:53 +0900|[GNU] Treat labels-as-values as compile-time constant
+0aad326f3550b3d4c499d4078fcc65cc2dbf7626|2020-09-02 01:30:29 +0900|Add string hashmap
+30520e5a7c73a6613cfcef38d72058e7cccde1f4|2020-09-02 01:32:00 +0900|Use hashmap for macro name lookup
+655954e301621737988a4fa0a2c72ffc24285c8d|2020-10-07 11:13:22 +0900|Use hashmap for block-scope lookup
+f6944133d211ec6fb71c41f118905e16a752135b|2020-09-03 22:55:50 +0900|Use hashmap for keyword lookup
+d0c4667b6bccf35ddf069c777689cd18c6a632b3|2020-09-03 19:34:07 +0900|Add -M option
+95d5a46234f98f3793c965bebe036361cbb1978e|2020-08-18 12:27:27 +0900|Add -MF option
+57c1d4ec0290d49fa1e954ff3e7a51e24d71a3a1|2020-08-18 12:30:30 +0900|Add -MP option
+db850f37a2a284bf18cea427e4676a22d83d04b8|2020-08-18 12:38:21 +0900|Add -MT option
+fb5cfe5d17fd0c0cbc0d17789c065b9bb86ba3c4|2020-08-18 12:42:46 +0900|Add -MD option
+7aa72e41e6b2703b3f357507252008ebe25dc08d|2020-09-03 00:32:47 +0900|Add -MQ option
+c3edffbbb06be9d586ee4f1cf678049b7d81369d|2020-09-19 21:03:19 +0900|Add -MMD option
+86785fceb169bc754efe3f29a9b63137f5c9a106|2020-09-08 18:50:40 +0900|Add -fpic and -fPIC options
+c0f0614e6b7647fd4703abf4c455024c2ade8cd7|2020-09-19 21:04:38 +0900|Cache file search results
+d48d9e5ae35b5eb1a9dcb0c07c1dba9e65bd83f3|2020-10-05 14:27:04 +0900|Add include guard optimization
+a6c662207d38813b3dd490d81d8afe14ac99272b|2020-10-05 14:27:19 +0900|[GNU] Add "#pragma once"
+f10bcebaa5df6bcb8e08e622ac44b0098e3133ae|2020-09-25 21:39:08 +0900|[GNU] Add #include_next
+1e9b6dd1108690f22c84af8db606fea9fb7ec2db|2020-10-09 15:06:35 +0900|Add -static option
+4e5de36a36452ef9fe29ac55f7812f2bb9005d95|2020-10-09 15:09:17 +0900|Add -shared option
+c8df7874c607f14eac3774680b55ab22c3aaf370|2020-09-13 15:34:58 +0900|Add -L option
+d1bc9a4eb0e205b10a583c347a9fe7d4bed7b813|2020-09-19 21:09:17 +0900|Add -Wl, option
+469f159bb1adebb92ca2c9a7841466a98e6ad956|2020-09-20 13:29:23 +0900|Add -Xlinker option
+fb4937024db2ee06fd60ea3bb2cfc6c898646a7d|2020-09-13 21:18:44 +0900|Add scripts to test third-party apps
+ca27455b92be2ffbfe58c7ffda623cf6ec112632|2020-09-15 11:30:56 +0900|Add atomic_compare_exchange
+80ea9d427c5041415b014a0a97193f1f7e0a871b|2020-09-15 11:30:56 +0900|Add atomic_exchange
+d69a11dd25a77c2b9390e54c9f9e8967456cb642|2020-09-15 11:30:56 +0900|Add _Atomic and atomic ++, -- and op= operators
+0a5d08c8f8a72e39828e7b1910c55174e6c8dd5e|2020-09-16 15:59:56 +0900|Complete stdatomic.h
+2ed3fdafa3d2f60bd1bcdb2bc5df6c1e58c357f7|2020-09-20 12:14:19 +0900|Add test/thirdparty/cpython.sh
+395308c77b94fc16b146c01cc1316b9a07635686|2020-09-23 20:57:17 +0900|redefinition
+44bea4c85a48d440bc0f704abe64eac80e9165dc|2020-10-07 11:14:15 +0900|Add __attribute__((packed))
+b35d148a8d8f7d9237173c70f18cd42d20f299ff|2020-09-25 14:48:38 +0900|Add __attribute__((aligned(N)) for struct declaration
+982041fb1c78147951e73050a6c87059f92ea4e6|2020-09-30 17:47:33 +0900|Update README
+90d1f7f199cc55b13c7fdb5839d1409806633fdb|2020-12-07 11:50:43 +0900|Make struct member access to work with `=` and `?:`

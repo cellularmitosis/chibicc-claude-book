@@ -1,0 +1,316 @@
+0522e2d Compile an integer to an exectuable that exits with the given number
+bf7081f Add + and - operators
+a1ab0ff Add a tokenizer to allow space characters between tokens
+cc5a6d9 Improve error message
+84cfcaf Add *, / and ()
+bf9ab52 Add unary plus and minus
+25b4b85 Add ==, !=, <= and >= operators
+725badf Split main.c into multiple small files
+76cae0a Accept multiple statements separated by semicolons
+1f9f3ad Support single-letter local variables
+482c26b Support multi-letter local variables
+6cc1c1f Add "return" statement
+18ac283 Add { ... }
+ff8912c Add null statement
+72b8415 Add "if" statement
+f5d480f Add "for" statement
+1f3eb34 Add "while" statement
+5b142b1 Add LICENSE and README.md
+3d86277 Add a representative node to each Node to improve error messages
+863e2b8 Add unary & and *
+a6bc4ab Make pointer arithmetic work
+b4e82cf Add keyword "int" and make variable definition mandatory
+30a3992 Support zero-arity function calls
+964b1d2 Support function call with up to 6 arguments
+6cb4220 Support zero-arity function definition
+aacc0cf Support function definition up to 6 parameters
+8b6395d Add one dimensional arrays
+3ce1b2d Add arrays of arrays
+648646b Add [] operator
+3e55caf Add sizeof
+0b76634 Merge Function with Var
+a4d3223 Add global variables
+be38d63 Add char type
+4cedda2 Add string literal
+35a0bcd Refactoring: Add a utility function
+ad7749f Add \a, \b, \t, \n \v, \f, \r and \e
+699d2b7 Add \<octal-sequence>
+c2cc1d3 Add \x<hexadecimal-sequence>
+9dae234 [GNU] Add statement expression
+d9ea597 Read code from a file instead of argv[1]
+7b8528f Refactor -- no functionality change
+a0388ba Add -o and --help options
+6c0a429 Add line and block comments
+ca8b243 Handle block scope
+cd832a3 Rewrite tests in shell script in C
+6647ad9 Precompute line number for each token
+1c91d19 Emit .file and .loc assembler directives
+e6307ad Add comma operator
+f814033 Add struct
+9443e4b Align struct members
+dfec115 Align local variables
+e1e831e Support struct tags
+f0a018a Add -> operator
+11e3841 Add union
+bef0543 Add struct assignment
+5831eda Change size of int from 8 to 4
+43c2f08 Add long type
+9d48eef Add short type
+a817b23 Add nested type declarators
+74e3acc Add function declaration
+8c3503b Add void type
+287906a Handle complex type declarations correctly
+f46370e Add `long long` as an alias for `long`
+a6b82da Add typedef
+67543ea Make sizeof to accept not only an expression but also a typename
+cb81a37 Use 32 bit registers for char, short and int
+cfc4fa9 Add type cast
+8b430a6 Implement usual arithmetic conversion
+9e211cb Report an error on undefined/undeclared functions
+818352a Handle return type conversion
+fdc80bc Handle function argument type conversion
+44bba96 Add _Bool type
+aa0accc Add character literal
+48ba265 Add enum
+736232f Support file-scope functions
+a4fea2b Allow for-loops to define local variables
+01a94c0 Add +=, -=, *= and /=
+47f1937 Add pre ++ and --
+e8ca48c Add post ++ and --
+7df934d Add hexadecimal, octal and binary number literals
+6b88bcb Add ! operator
+46a96d6 Add ~ operator
+daa7398 Add % and %=
+8644006 Add &, |, ^, &=, |= and ^=
+f30f781 Add && and ||
+29ed294 Add a notion of an incomplete array type
+7963221 Decay an array to a pointer in the func param context
+61a1055 Add a notion of an incomplete struct type
+6116cae Add goto and labeled statement
+a4be55b Resolve conflict between labels and typedefs
+b3047f2 Add break statement
+3c83dfd Add continue statement
+044d9ae Add switch-case
+d0c0cb7 Add <<, >>, <<= and >>=
+447ee09 Add ?: operator
+79f5de2 Add constant expression
+22dd560 Support local variable initializers
+ae0a37d Initialize excess array elements with zero
+a754732 Skip excess initializer elements
+0d71737 Add string literal initializer
+5b95533 Allow to omit array length if an initializer is given
+e9d2c46 Handle struct initializers for local variables
+aca19dd Allow to initialize a struct with other struct
+483b194 Handle union initializers for local variables
+bbfe3f4 Add global initializer for scalar and string
+eeb62b6 Add struct initializer for global variable
+1eae5ae Handle union initializers for global variable
+efa0f33 Allow parentheses in initializers to be omitted
+a58958c Allow extraneous braces for scalar initializer
+fde464c Allow extraneous comma at the end of enum or initializer list
+3d216e3 Emit uninitialized global data to .bss instead of .data
+824543b Add flexible array member
+cd688a8 Allow to initialize struct flexible array member
+7a1f816 Accept `void` as a parameter list
+157356c Align global variables
+006a45c Add extern
+2764745 Handle extern declarations in a block
+9df5178 Add _Alignof and _Alignas
+310a87e [GNU] Allow a variable as an operand of _Alignof
+319772b Add static local variables
+127056d Add compound literals
+30b3e21 Add return that doesn't take any value
+eb85527 Add static global variables
+ee252e6 Add do ... while
+6a0ed71 Align stack frame to 16 byte boundaries
+dcd4579 Handle a function returning bool, char or short
+58fc861 Allow to call a variadic function
+754a24f Add va_start to support variadic functions
+197689a Check the number of function arguments
+3f59ce7 Add `signed` keyword
+34ab83b Add unsigned integral types
+aaf1045 Add U, L and LL suffixes
+8b8f3de Use long or ulong instead of int for some expressions
+6880a39 When comparing two pointers, treat them as unsigned
+7ba6fe8 Handle unsigned types in the constant expression
+b773554 Ignore const, volatile, auto, register, restrict or _Noreturn.
+93d1277 Ignore "static" and "const" in array-dimensions
+1fad259 Allow to omit parameter name in function declaration
+1e57f72 Add floating-point constant
+29de46a Add "float" and "double" local variables and casts
+cf9ceec Add flonum ==, !=, < and <=
+83f76eb Add flonum +, -, * and /
+0ce1093 Handle flonum for if, while, do, !, ?:, || and &&
+8ec1ebf Allow to call a function that takes/returns flonums
+c6b3056 Allow to define a function that takes/returns flonums
+8b14859 Implement default argument promotion for float
+e452cf7 Support variadic function with floating-point parameters
+ffea421 Add flonum constant expression
+9bf9612 Add "long double" as an alias for "double"
+5d15431 Add stage2 build
+d06a8ac Add function pointer
+c5953ba Decay a function to a pointer in the func param context
+53e8103 Add usual arithmetic conversion for function pointer
+f3d9613 Split cc1 from compiler driver
+140b433 Run "as" command unless -S is given
+b833cd0 Accept multiple input files
+8b726b5 Run "ld" unless -c is given
+1e1ea39 Add a do-nothing preprocessor
+146c7b3 Add the null directive
+d367510 Add #include "..."
+ec149f6 Skip extra tokens after `#include "..."`
+d138864 Add -E option
+bf6ff92 Add #if and #endif
+aa570f3 Skip nested #if in a skipped #if-clause
+c6e81d2 Add #else
+e7a1857 Add #elif
+97d33ad Add objlike #define
+9ad60e4 Add #undef
+2651448 Expand macros in the #if and #elif argument context
+acce002 Do not expand a token more than once for the same objlike macro
+1f80f58 Add #ifdef and #ifndef
+dec3b3f Add zero-arity funclike #define
+b9ad3e4 Add multi-arity funclike #define
+dd4306c Allow empty macro arguments
+c7d7ce0 Allow parenthesized expressions as macro arguments
+1313fc6 Do not expand a token more than once for the same funclike macro
+8f6f792 Add macro stringizing operator (#)
+8f561ae Add macro token-pasting operator (##)
+769b5a0 Use chibicc's preprocessor for all tests
+5cb2f89 Add defined() macro operator
+a8d76ad Replace remaining identifiers with 0 in macro constexpr
+8075582 Preserve newline and space during macro expansion
+b33fe0e Support line continuation
+d85fc4f Add #include <...>
+a1dd621 Add -I<dir> option
+a939a7a Add default include paths
+e7fdc2e Add #error
+5f5a850 Add predefine macros such as __STDC__
+6f17071 Add __FILE__ and __LINE__
+dc01f94 Add __VA_ARGS__
+ba6b4b6 Add __func__
+82ba010 [GNU] Add __FUNCTION__
+ab4f1e1 Concatenate adjacent string literals
+7746e4e Recognize wide character literal
+7cbfd11 Add stdarg.h, stdbool.h, stddef.h, stdalign.h and float.h
+5322ea8 Add va_arg()
+12a9e75 Self-host: including preprocessor, chibicc can compile itself
+b29f052 Support passed-on-stack arguments
+9021f7f Support passed-on-stack parameters
+5e0f8c4 Allow struct parameter
+d63b1f4 Allow struct argument
+c72df1c Allow to call a fucntion returning a struct
+d7bad96 Allow to define a function returning a struct
+b6d3cd0 Allow variadic function to take more than 6 parameters
+603de50 Add va_copy()
+e0b5da3 Dereferencing a function shouldn't do anything
+3f2c2d5 Tokenize numeric tokens as pp-numbers
+fc69f5c Add -D option
+be8b6f6 Add -U option
+cc852fe Add bitfield
+441a89b Support global struct bitfield initializer
+54c2b3b Handle op=-style assignments to bitfields
+17ea802 Handle zero-width bitfield member
+c302a96 Do not allow to obtain an address of a bitfield
+2bdc6b8 Write to an in-memory buffer before writing to an actual output file
+b1fdddf Ignore -O, -W and -g and other flags
+2c91da5 Turn on -Wall compiler flag and fix compiler warnings
+5257ee0 Make an array of at least 16 bytes long to have alignment of at least 16 bytes
+9c36dd7 Make "main" to implicitly return 0
+c3075b3 Add anonymous struct and union
+e27417f Add __DATE__ and __TIME__ macros
+0e77f3d [GNU] Add __COUNTER__ macro
+74bcec5 Canonicalize newline character
+c31886a Add \u and \U escape sequences
+a57c661 Accept multibyte character as wide character literal
+454618c Add UTF-16 character literal
+2dac3af Add UTF-32 character literal
+57b21fe Add UTF-8 string literal
+9cabe1f Add UTF-16 string literal
+c467ee6 Add UTF-32 string literal
+cae061a Add wide string literal
+36230e0 Add UTF-16 string literal initializer
+6adba75 Add UTF-32 string literal initializer
+e4491b8 Define __STDC_UTF_{16,32}__ macros
+0e5d250 Allow multibyte UTF-8 character in identifier
+adb8b98 [GNU] Accept $ as an identifier character
+2382777 Allow to concatenate regular string literals with L/u/U string literals
+2b2fa25 Skip UTF-8 BOM markers
+c618c3b Add array designated initializer
+835cd24 Allow array designators to initialize incomplete arrays
+691c4fa [GNU] Allow to omit "=" in designated initializers
+67f5834 Add struct designated initializer
+31dc1df Add union designated initializer
+95eb5b0 Handle struct designator for anonymous struct member
+37998be Improve error message for multibyte characters
+c61c0d0 Add #line
+aaf20fb [GNU] Add line marker directive
+922604a [GNU] Add __TIMESTAMP__ macro
+3a10c8a [GNU] Add __BASE_FILE__ macro
+3381448 Add __VA_OPT__
+083c275 [GNU] Handle ,##__VA_ARG__
+74ec9f6 Ignore #pragma
+007e526 [GNU] Support GCC-style variadic macro
+7d80a51 Add typeof
+1433b40 [GNU] Add __builtin_types_compatible_p
+1faab48 Add _Generic
+aee7891 [GNU] Allow sizeof(<function type>)
+e28a612 [GNU] Add ?: operator with omitted operand
+a253516 Add basic "asm" statement
+31087f8 Handle inline functions as static functions
+e5f4ca9 Do not emit static inline functions if referenced by no one
+6a2dc5a Use __attribute__((format(print, ...))) to find programming errors
+11fc259 Add -idirafter option
+1b99bad Add offsetof
+85e46b1 Add tentative definition
+6d344ed Add -fcommon and -fno-common flags
+b377284 Add thread-local variable
+8f5ff07 Add -include option
+ee0a951 Add -x option
+4064871 Make -E to imply -xc
+77275c5 Add alloca()
+e8667af Add sizeof() for VLA
+07f9010 Add pointer arithmetic for VLA
+2fa8f48 Support sizeof(typename) where typename is a VLA
+b0109a3 Do not define __STDC_NO_VLA__
+bc25279 Add -l option
+c32f0e2 Add -s option
+8d130ab Emit size and type for symbols
+d56dd2f Recognize .a and .so files
+e0bf168 Add long double
+d90c73b [GNU] Support case ranges
+3d5550e [GNU] Support array range designator
+4f165ec [GNU] Support labels-as-values
+f0c98e0 [GNU] Treat labels-as-values as compile-time constant
+0aad326 Add string hashmap
+30520e5 Use hashmap for macro name lookup
+655954e Use hashmap for block-scope lookup
+f694413 Use hashmap for keyword lookup
+d0c4667 Add -M option
+95d5a46 Add -MF option
+57c1d4e Add -MP option
+db850f3 Add -MT option
+fb5cfe5 Add -MD option
+7aa72e4 Add -MQ option
+c3edffb Add -MMD option
+86785fc Add -fpic and -fPIC options
+c0f0614 Cache file search results
+d48d9e5 Add include guard optimization
+a6c6622 [GNU] Add "#pragma once"
+f10bceb [GNU] Add #include_next
+1e9b6dd Add -static option
+4e5de36 Add -shared option
+c8df787 Add -L option
+d1bc9a4 Add -Wl, option
+469f159 Add -Xlinker option
+fb49370 Add scripts to test third-party apps
+ca27455 Add atomic_compare_exchange
+80ea9d4 Add atomic_exchange
+d69a11d Add _Atomic and atomic ++, -- and op= operators
+0a5d08c Complete stdatomic.h
+2ed3fda Add test/thirdparty/cpython.sh
+395308c redefinition
+44bea4c Add __attribute__((packed))
+b35d148 Add __attribute__((aligned(N)) for struct declaration
+982041f Update README
+90d1f7f Make struct member access to work with `=` and `?:`
