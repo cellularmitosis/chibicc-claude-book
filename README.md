@@ -8,7 +8,7 @@ Rui's compiler is unusual: it was built as a teaching artifact, one feature per 
 
 ## Authorship
 
-This book is being written **entirely by Claude** (Anthropic), with the project owner directing scope, approving structure, and steering revisions. Rui Ueyama is not a co-author and has no involvement in the book. The book follows Rui's pedagogical structure — his README, his commit ordering, the table of contents of his existing Japanese compiler book at <https://www.sigbus.info/compilerbook> — but the prose is original. Where the book explains *why* a design choice was made, it either cites Rui's own words or labels the explanation as interpretation.
+This book is being written **entirely by Claude Code** (Opus 4.7), with the project owner directing scope, approving structure, and steering revisions. Rui Ueyama is not a co-author and has no involvement in the book. The book follows Rui's pedagogical structure — his README, his commit ordering, the table of contents of his existing Japanese compiler book at <https://www.sigbus.info/compilerbook> — but the prose is original. Where the book explains *why* a design choice was made, it either cites Rui's own words or labels the explanation as interpretation.
 
 ## Status
 
