@@ -72,4 +72,4 @@ Default to capturing liberally in the active session directory. Plans, decisions
 
 Phase 0 (research + plan): complete (session 001).
 Phase 1 (Chapter 1 pilot): drafted (session 002). User opted not to review chapter-by-chapter; will evaluate the whole book at the end.
-Phase 2 (bulk drafting): in progress. Ch 2 drafted (session 003), Ch 3 drafted (session 004), Ch 4 drafted (session 005). Continuing autonomously per user direction.
+Phase 2 (bulk drafting): in progress. Ch 2 drafted (session 003), Ch 3 drafted (session 004), Ch 4 drafted (session 005), Ch 5 drafted (session 006), Ch 6 drafted (session 007), Ch 7 drafted (session 008), Ch 8 drafted (session 009), Ch 9 drafted (session 010), Ch 10 drafted (session 011), Ch 11 drafted (session 012), Ch 12 drafted (session 013), Ch 13 drafted (session 014), Ch 14 drafted (session 015), Ch 15 drafted (session 016), Ch 16 drafted (session 017). Continuing autonomously per user direction.
