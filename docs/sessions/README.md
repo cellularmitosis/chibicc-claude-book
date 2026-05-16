@@ -3,7 +3,7 @@
 One directory per work session, globally numbered. Each session dir contains:
 
 - `README.md` — narrative of the session. First paragraph = state on arrival. Last paragraph = state on exit. Everything in between is what happened, in roughly chronological order, with enough detail that a future session can reconstruct the thinking.
-- `HANDOFF.md` — primer for the next session, written when there's specific unfinished work or open questions to pass forward. Skip when the session ended at a clean stopping point.
+- `HANDOFF.md` — primer for the next session. **Write one every session.** The only valid reason to skip is that the entire project has run out of roadmap and there is literally nothing left to do. Include the open punch list, gotchas the next-you would re-step on, where the canonical artifacts live now, and a literal prompt-block at the bottom for paste-into-fresh-session use.
 - `findings.md` — "things we learned this session that will matter later" (optional; many sessions fold this into README.md).
 - `commits.md` — commits landed this session, one-liner each (optional; only useful for sessions that produced many commits).
 
@@ -36,9 +36,10 @@ The default cadence is **one chapter per session**, but reality varies. Plan/res
    - Decisions made (especially ones not in the user's instructions — i.e. judgment calls).
    - Dead ends or rolled-back experiments worth remembering.
    - Open questions surfaced for the user.
-3. **Write `HANDOFF.md`** if work continues into the next session and there's nontrivial context to pass. Include the literal prompt-block to paste at the top of the next session.
+3. **Write `HANDOFF.md`.** Every session, not just the messy ones. Open questions, in-flight chapters, the "I'd start with #N next" recommendation, gotchas the next-you would re-step on, and where the canonical artifacts live after anything moved this session. Include a paste-into-fresh-session prompt block. The only valid skip is total project roadmap exhaustion — and even then, a HANDOFF.md saying so is better than silence.
 4. **Update [book-plan.md](../../book-plan.md)** if the plan shifted (chapter scope, structure, voice, etc.). The plan is living.
-5. **Surface the session briefly to the user** before closing — what's where, what to read, what to confirm or push back on.
+5. **Update the project README** to reflect anything user-visible that changed this session — chapter status, completion progress, anchor links to new finished drafts. Even sessions that don't finish a chapter usually move the status forward in some way.
+6. **Surface the session briefly to the user** before closing — what's where, what to read, what to confirm or push back on.
 
 ## Session vs. chapter numbering
 
